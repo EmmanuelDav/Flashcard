@@ -19,4 +19,8 @@ class CardCreateView(CreateView):
     success_url = reverse_lazy("card-create")
 
 
+class CardUpdateView(CardCreateView, UpdateView):
+    success_url = reverse_lazy("card-list")
+
+
 

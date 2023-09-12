@@ -15,4 +15,10 @@ urlpatterns = [
          views.CardCreateView.as_view(),
          name="card-create"
     ),
+
+    path(
+        "edit/<int:pk>",
+        views.CardUpdateView.as_view(),
+        name="card-update"
+    ),
 ]
