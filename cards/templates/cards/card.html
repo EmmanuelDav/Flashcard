@@ -11,5 +11,7 @@
             <summary>Reveal Answer</summary>
             <p>{{ card.answer }}</p>
         </details>
+        {% include "cards/card_check_form.html" with solved=True %}
+        {% include "cards/card_check_form.html" with solved=False %}
     {% endif %}
 </article>
