@@ -1,14 +1,15 @@
+import random
+
 from django.views.generic import(
     ListView,
     CreateView,
     UpdateView,
-
 )
-import random
 from .forms import CardCheckForm
-
 from .models import Card
 from django.urls import reverse_lazy
+from django.shortcuts import get_object_or_404, redirect
+
 
 class CardListView(ListView):
     model = Card

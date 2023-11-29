@@ -23,15 +23,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-6952twt%9ma%%8#9(f)5*x-cw+ay%c%0(%c+9m_kc^o-!)a1%b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://flashcard-env.eba-8vuhqgbi.us-west-2.elasticbeanstalk.com/']
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'ebhealthcheck.apps.EBHealthCheckConfig',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
