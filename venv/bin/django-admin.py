@@ -1,4 +1,4 @@
-#!/home/emmanuel/Django/flashcard_app/flashcards_app/venv/bin/python
+#!/home/emmanuel/Django/flashcard_app/flashcards_app/venv/bin/python3
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
