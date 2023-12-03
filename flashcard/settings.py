@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'ebhealthcheck.apps.EBHealthCheckConfig',
     'django.contrib.auth',
+    'gunicorn',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
