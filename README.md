@@ -18,3 +18,11 @@
 2. django-tailwind==3.4.0
 3. whitenoise==6.3.0
 4. psycopg2==2.9.5
+
+![flashcard](https://github.com/EmmanuelDav/Flashcard/assets/52932347/7baaa064-b67b-4657-9d03-b5f980d3c578)
+![flashcard1](https://github.com/EmmanuelDav/Flashcard/assets/52932347/b0119bdd-0684-46d1-bb21-2d3c3dea52e9)
+![flashcard2](https://github.com/EmmanuelDav/Flashcard/assets/52932347/fa31f738-0deb-46c2-b6ec-f72cbc5c9fc3)
+
+
+
+
